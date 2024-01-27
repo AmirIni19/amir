@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.romeve_bye{
+  display: block;
+}
+@media (min-width: 1024px) {
+  .romeve_bye{
+    display: none;
+  }
+}
+
+.w_me_w {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 639px) {
+    .w_me_w {
+      width: 95%;
+    }
+  }
+
+  @media (min-width: 640px) {
+    .w_me_w {
+      width: 95%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .w_me_w {
+      width: 95%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .w_me_w {
+      width: 95%;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .w_me_w {
+      width: 1260px;
+    }
+  }
+
+  @media (min-width: 1300px) {
+    .w_me_w {
+      width: 1260px;
+    }
+  }
+
+  @media (min-width: 1500px) {
+    .w_me_w {
+      width: 1260px;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .w_me_w {
+      width: 1260px;
+    }
+  }

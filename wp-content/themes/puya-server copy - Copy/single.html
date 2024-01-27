@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>single</title>
+    <link rel="stylesheet" href="./tailwind-output.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/flowbite.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+</head>
+
+<body>
+
+
+    <div class="col-lg-9 pull-left">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="titlemain">
+                    <p>
+                        <?php //woocommerce_breadcrumb(); ?>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="archive">
+                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                    <div class="archivebox">
+                        <a href="<?php the_permalink(); ?>">
+                            <?php the_post_thumbnail('archive'); ?>
+                        </a>
+                        <a href="<?php the_permalink(); ?>">
+                            <h3>
+                                <?php the_title(); ?>
+                            </h3>
+                        </a>
+                        <?php the_excerpt(); ?>
+                    </div>
+                    <?php endwhile; else: ?>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./js/preline.js"></script>
+    <script src="./js/flowbite.min.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/load.js"></script>
+
+
+</body>
+
+</html>

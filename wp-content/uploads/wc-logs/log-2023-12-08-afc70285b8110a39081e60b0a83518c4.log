@@ -1,0 +1,3 @@
+2023-12-08T15:24:37+00:00 DEBUG Automattic\WooCommerce\Internal\DataStores\Orders\DataSynchronizer::get_current_orders_pending_sync_count فراخوانی شد اما هیچ نوع سفارشی ثبت نشد: ممکن است خیلی زود فراخوانی شده باشد.
+2023-12-08T15:24:37+00:00 DEBUG Automattic\WooCommerce\Internal\DataStores\Orders\DataSynchronizer::get_current_orders_pending_sync_count فراخوانی شد اما هیچ نوع سفارشی ثبت نشد: ممکن است خیلی زود فراخوانی شده باشد.
+2023-12-08T15:24:37+00:00 DEBUG Automattic\WooCommerce\Internal\DataStores\Orders\DataSynchronizer::get_current_orders_pending_sync_count فراخوانی شد اما هیچ نوع سفارشی ثبت نشد: ممکن است خیلی زود فراخوانی شده باشد.
