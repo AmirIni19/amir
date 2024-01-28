@@ -6,7 +6,6 @@ wp-content/languages
 wp-content/upgrade
 wp-includes
 .htaccess
-index.php
 license.txt
 package.json
 readme.html
