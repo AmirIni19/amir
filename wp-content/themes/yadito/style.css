@@ -1,15 +1,15 @@
 /*
 Theme Name: یادی تو
-Theme URI: https://amir-hasanpour.ir/
-Author: Mohammad Amir Hasanpour
-Author URI: https://amir-hasanpour.ir/
-Description: this theme is for Amir
+Theme URI: https://websoft3.com/
+Author: دانشجویان دوره
+Author URI: https://websoft3.com/
+Description: قالب طراحی شده در دوره جامع آموزش طراحی قاالب وردپرس در سایت وبسافت3
 Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
 Version: 1.0
 Requires PHP: 7.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: Amir Hasanpour 
+Text Domain: وبسافت3
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
@@ -69,6 +69,13 @@ a {
 .topbar-left li {
     float: left;
     list-style: none;
+}
+.topbar-left li a {
+    color: #fff;
+    text-decoration: navajowhite;
+    padding: 0 10px;
+    font-size: 12.5px;
+    line-height: 40px;
 }
 .topbar-left li i {
     font-size: 18px;

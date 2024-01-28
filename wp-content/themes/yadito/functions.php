@@ -1,20 +1,39 @@
 <?php
 
 
-// این برای موقعی هست که ما میخاییم یک رویدادی در وردپرس رخ بده و ما ازش استفاده کنیم 
-// دو تا ورودی میگیره : 1 زمان اجرای اون رویداد رو میگیم و ورودی 2ام میاد اون اتفاقی که قراره در زمان1 انجام بشه خروجی میده
-// add_action('اینجا اسم یک تابع رو مگییم که قراره اجرا بشه','زمانی که یک پست منتشر شده');
+function add_theme_scripts(){
+    // اضافه کردن فایل های css
+    wp_enqueue_style('all' , get_template_directory_uri() . '/css/all.css' , array() , false , 'all');
+    wp_enqueue_style('owl.carousel' , get_template_directory_uri() . '/css/owl.carousel.min.css' , array() , false , 'all');
+    wp_enqueue_style('owl.theme' , get_template_directory_uri() . '/css/owl.theme.default.min.css' , array() , false , 'all');
+    wp_enqueue_style('style' , get_stylesheet_uri() , array() , false , 'all');
 
-function add_theme_scripts()
-{
-    wp_enqueue_style('style', get_stylesheet_uri() , array() , false , 'all' );
-
-    wp_enqueue_style('slider', get_template_directory_uri() . '/css/slider.css', array(), '1.1', 'all');
-
-    wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array('jquery'), 1.1, true);
-
-    if (is_singular() && comments_open() && get_option('thread_comments')) {
-        wp_enqueue_script('comment-reply');
-    }
+    //اضافه کردن فایل جاوااسکریپت
+    wp_enqueue_script('jq' , get_template_directory_uri() . '/js/jquery-3.5.1.min.js' , array() , false , true);
+    wp_enqueue_script('owl.carousel.js' , get_template_directory_uri() . '/js/owl.carousel.min.js' , array('jquery') , false , true);
+    wp_enqueue_script('main' , get_template_directory_uri() . '/js/main.js' , array('jquery') , false , true);
 }
-add_action('wp_enqueue_scripts', 'add_theme_scripts');
+add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
+
+
+
+function pishro_setup_theme(){
+    add_theme_support('title-tag');
+    add_theme_support('automatic-feed-links');
+    add_theme_support('post-thumbnails');
+    add_image_size('article',313,181,true);
+
+    register_nav_menus(
+        array(
+            'main-menu' => __( 'جایگاه فهرست اصلی ' ),
+            'top-menu' => __( 'جایگاه فهرست بالای سایت' )
+        )
+    );
+}
+add_action('after_setup_theme','pishro_setup_theme');
+
+
+function custop_excerpt_length() {
+    return 25;
+}
+add_filter('excerpt_length' , 'custop_excerpt_length',999);
