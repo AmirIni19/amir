@@ -37,3 +37,7 @@ function custop_excerpt_length() {
     return 25;
 }
 add_filter('excerpt_length' , 'custop_excerpt_length',999);
+
+
+require_once 'inc/tv-posttype.php';
+require_once 'inc/video-tv.php';

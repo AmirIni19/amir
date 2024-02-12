@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="123ffeff-8605-4870-87b2-c51159c5d5b1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../wp-admin" />
+      <path value="$PROJECT_DIR$/../../../wp-includes" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1jdpFumGMjROxkISA7BxTBDa4u0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\RM\Desktop\html-css" />
+      <recent name="C:\Users\Reza\Desktop\thml-css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="123ffeff-8605-4870-87b2-c51159c5d5b1" name="Default Changelist" comment="" />
+      <created>1604143722766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604143722766</updated>
+      <workItem from="1604143723808" duration="3154000" />
+      <workItem from="1604173706694" duration="4417000" />
+      <workItem from="1604214885371" duration="14433000" />
+      <workItem from="1604255522004" duration="2289000" />
+      <workItem from="1604260057149" duration="3625000" />
+      <workItem from="1604304001434" duration="606000" />
+      <workItem from="1604309298401" duration="9814000" />
+      <workItem from="1604342863568" duration="8579000" />
+      <workItem from="1604392033015" duration="169000" />
+      <workItem from="1604397020442" duration="2616000" />
+      <workItem from="1604409200527" duration="5067000" />
+      <workItem from="1604416487797" duration="2076000" />
+      <workItem from="1610706161703" duration="793000" />
+      <workItem from="1610707840928" duration="2705000" />
+      <workItem from="1610714470038" duration="11243000" />
+      <workItem from="1611705843723" duration="2216000" />
+      <workItem from="1611739414670" duration="8625000" />
+      <workItem from="1611766034011" duration="2255000" />
+      <workItem from="1611769635480" duration="2853000" />
+      <workItem from="1611829527127" duration="3484000" />
+      <workItem from="1611847143035" duration="66000" />
+      <workItem from="1611912835441" duration="15082000" />
+      <workItem from="1611943286070" duration="2565000" />
+      <workItem from="1611947999089" duration="596000" />
+      <workItem from="1611993387879" duration="138000" />
+      <workItem from="1612011291364" duration="2447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
